@@ -1,0 +1,51 @@
+body {
+  margin: 0;
+  font-family: 'Canela Deck', sans-serif;
+  background-color: #1c1c1c;
+  color: #e0e0e0;
+}
+
+h1 {
+  text-align: center;
+  font-size: 70px;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-container {
+  width: 600px;
+}
+
+.circle {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-color: #7c73e6;
+  transition: all 300ms;
+}
+
+.circle:hover {
+  transform: scale(1.1);
+}
+
+.lightOn {
+  background-color: #fafafa;
+  filter: blur(3px);
+}
+
+#myLamps {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+#reactionTime {
+  margin-top: 30px;
+  height: 20px;
+  font-size: 20px;
+  text-align: center;
+}
