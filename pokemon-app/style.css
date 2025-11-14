@@ -1,0 +1,54 @@
+body {
+  margin: 0;
+  font-family: 'Canela Deck', sans-serif;
+}
+
+#app {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 98vh;
+  width: 98vw;
+  font-family: 'Orbitron', sans-serif;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 32px;
+}
+
+.opposing-pokemon {
+  margin-left: 50%;
+}
+
+button {
+  height: 70px;
+  width: 100px;
+}
+
+.btn-container {
+  width: 200px;
+  display: flex;
+  margin-bottom: 22px;
+  margin-left: 50%;
+}
+
+img {
+  width: auto;
+  height: 250px;
+}
+
+.bottom-screen {
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.caught-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.my-pokemons {
+  text-align: center;
+}
